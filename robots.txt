@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mralhmydy695-oss.github.io/academy-hulool/sitemap.xml
