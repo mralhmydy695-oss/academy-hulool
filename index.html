@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أكاديمية حلول للخدمات التعليمية</title>
+
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f6f2ea;color:#1b1b1b;line-height:1.8}
+header{position:sticky;top:0;z-index:1000;background:#0f1f1c;color:white;padding:12px 7%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 4px 20px rgba(0,0,0,.25)}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{height:80px;width:auto;display:block;border-radius:10px}
+nav a{color:white;text-decoration:none;margin:0 8px;font-size:14px}
+nav a:hover{color:#f4d98a}
+.hero{min-height:90vh;background:linear-gradient(rgba(15,31,28,.9),rgba(15,31,28,.9)),url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80");background-size:cover;background-position:center;color:white;display:flex;align-items:center;padding:70px 8%}
+.hero-content{max-width:760px}
+.hero h1{font-size:46px;color:#f7d98b;margin-bottom:15px}
+.hero p{font-size:20px;color:#f1f1f1}
+.btn{display:inline-block;background:linear-gradient(135deg,#d6b46a,#f4d98a);color:#142623;padding:13px 28px;border-radius:35px;text-decoration:none;font-weight:bold;margin-top:20px;border:none;cursor:pointer}
+section{padding:60px 8%}
+.section-title{text-align:center;margin-bottom:35px}
+.section-title h2{color:#142623;font-size:32px;margin-bottom:8px}
+.section-title p{color:#666;margin:0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.card{background:white;padding:25px;border-radius:18px;box-shadow:0 8px 25px rgba(0,0,0,.08);border-top:5px solid #d6b46a;transition:.3s}
+.card:hover{transform:translateY(-7px);box-shadow:0 12px 30px rgba(0,0,0,.14)}
+.card h3{color:#142623;margin-top:0}
+.dark{background:#142623;color:white}
+.dark .section-title h2,.dark .card h3{color:#f7d98b}
+.dark .section-title p{color:#ddd}
+.dark .card{background:#203b36;color:#f5f5f5}
+form{background:white;padding:30px;border-radius:20px;max-width:750px;margin:auto;box-shadow:0 8px 25px rgba(0,0,0,.09)}
+input,select,textarea{width:100%;padding:13px;margin:8px 0 18px;border:1px solid #ccc;border-radius:10px;font-family:inherit;font-size:15px}
+label{font-weight:bold;color:#142623}
+footer{background:#101f1c;color:white;text-align:center;padding:25px 8%}
+.whatsapp-fixed{position:fixed;left:20px;bottom:20px;background:#25d366;color:white;padding:14px 20px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 5px 18px rgba(0,0,0,.25);z-index:999}
+@media(max-width:768px){
+header{flex-direction:column;gap:10px}
+nav{text-align:center}
+nav a{display:inline-block;margin:5px}
+.hero h1{font-size:32px}
+.hero p{font-size:17px}
+.logo{height:70px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+ <img src="logo.png" width="200">
+  </div>
+
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#student-services">خدمات الطلاب</a>
+    <a href="#subjects">المواد</a>
+    <a href="#teacher-services">خدمات المدرسين</a>
+    <a href="#order">اطلب الخدمة</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>أكاديمية حلول للخدمات التعليمية</h1>
+    <p>
+      منصة تعليمية تقدم خدمات شرح المواد المحاسبية، حل الواجبات بأسعار معقولة،
+      إعداد التقارير والعروض، وخدمات مساندة للطلاب والمدرسين باحترافية وتنظيم.
+    </p>
+    <a class="btn" href="https://wa.me/967773957911" target="_blank">تواصل عبر واتساب</a>
+  </div>
+</section>
+
+<section id="student-services">
+  <div class="section-title">
+    <h2>خدمات الطلاب</h2>
+    <p>خدمات تعليمية منظمة تساعدك على الفهم والمراجعة وتجهيز المتطلبات الدراسية.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>شرح المواد المحاسبية</h3>
+      <p>شرح مبسط وواضح للمواد المحاسبية مع أمثلة وتمارين تساعد الطالب على فهم الفكرة خطوة بخطوة.</p>
+    </div>
+
+    <div class="card">
+      <h3>حل جميع واجبات تخصص المحاسبة</h3>
+      <p>تقديم المساعدة في حل جميع واجبات وتكاليف تخصص المحاسبة باللغة العربية، مع الحرص على الدقة والتنظيم وسرعة الإنجاز وبأسعار معقولة تناسب الطلاب.</p>
+    </div>
+
+    <div class="card">
+      <h3>تلخيص المحاضرات</h3>
+      <p>تلخيص الملازم والمحاضرات بطريقة مرتبة ومختصرة تسهل المذاكرة قبل الاختبارات.</p>
+    </div>
+
+    <div class="card">
+      <h3>إعداد التقارير الجامعية</h3>
+      <p>تنسيق التقارير والبحوث والتدريب التعاوني بطريقة أكاديمية ومنظمة.</p>
+    </div>
+
+    <div class="card">
+      <h3>العروض التقديمية</h3>
+      <p>تصميم عروض PowerPoint مرتبة وجذابة للمشاريع الجامعية والشرح والعروض الصفية.</p>
+    </div>
+
+    <div class="card">
+      <h3>Excel للمحاسبين</h3>
+      <p>شرح الجداول والدوال والتقارير والتحليل المالي باستخدام Excel بطريقة تطبيقية.</p>
+    </div>
+  </div>
+</section>
+
+<section id="subjects" class="dark">
+  <div class="section-title">
+    <h2>المواد التي نشرحها</h2>
+    <p>نركز على المواد الأكثر طلبًا في تخصصات المحاسبة والإدارة.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>مبادئ المحاسبة</h3>
+      <p>شرح المفاهيم الأساسية، الدورة المحاسبية، القيود اليومية، الترحيل، وميزان المراجعة.</p>
+    </div>
+
+    <div class="card">
+      <h3>المحاسبة المتوسطة</h3>
+      <p>شرح الأصول والالتزامات وحقوق الملكية والمخزون والإيرادات والمعالجات المحاسبية.</p>
+    </div>
+
+    <div class="card">
+      <h3>محاسبة التكاليف</h3>
+      <p>شرح عناصر التكاليف، أوامر الإنتاج، مراكز التكلفة، التكاليف الصناعية، وتحليل التكلفة.</p>
+    </div>
+
+    <div class="card">
+      <h3>المحاسبة الإدارية</h3>
+      <p>شرح الموازنات، تحليل التعادل، اتخاذ القرارات، وتحليل التكاليف لأغراض الإدارة.</p>
+    </div>
+
+    <div class="card">
+      <h3>التحليل المالي</h3>
+      <p>شرح النسب المالية، تحليل القوائم المالية، مقارنة الأداء، وقراءة النتائج المالية.</p>
+    </div>
+
+    <div class="card">
+      <h3>الزكاة والضريبة</h3>
+      <p>شرح ضريبة القيمة المضافة، الإقرارات الضريبية، الزكاة، والمعالجات المحاسبية المرتبطة بها.</p>
+    </div>
+
+    <div class="card">
+      <h3>الإحصاء</h3>
+      <p>شرح الإحصاء الوصفي، الاحتمالات، التوزيعات، اختبار الفروض، وتحليل البيانات.</p>
+    </div>
+
+    <div class="card">
+      <h3>مبادئ الرياضيات</h3>
+      <p>شرح أساسيات الرياضيات المستخدمة في التخصصات الإدارية والمحاسبية والاقتصادية.</p>
+    </div>
+
+    <div class="card">
+      <h3>Excel للمحاسبين</h3>
+      <p>شرح الدوال، الجداول، التحليل المالي، الفواتير، المطابقات، والتقارير المحاسبية.</p>
+    </div>
+  </div>
+</section>
+
+<section id="teacher-services">
+  <div class="section-title">
+    <h2>خدمات المدرسين والمعلمين</h2>
+    <p>خدمات مساندة للمعلمين والمدرسين في إعداد الملفات والعروض والتقارير.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>تقرير الإنجاز</h3>
+      <p>إعداد وتنسيق تقارير الإنجاز الشهرية أو الفصلية بشكل مرتب وواضح وجاهز للطباعة.</p>
+    </div>
+
+    <div class="card">
+      <h3>تقرير الأداء الوظيفي</h3>
+      <p>صياغة وترتيب تقارير الأداء الوظيفي بطريقة احترافية ومنظمة.</p>
+    </div>
+
+    <div class="card">
+      <h3>العروض التقديمية التفاعلية</h3>
+      <p>تصميم عروض تعليمية تفاعلية وجذابة تناسب الشرح داخل الفصل أو التدريب.</p>
+    </div>
+
+    <div class="card">
+      <h3>كتابة الاختبارات</h3>
+      <p>إعداد أسئلة اختبارات متنوعة مثل اختيار من متعدد، صح وخطأ، مقالي، وأسئلة تطبيقية.</p>
+    </div>
+
+    <div class="card">
+      <h3>تنسيق ملفات Word</h3>
+      <p>تنسيق الخطوط، العناوين، الجداول، الفهارس، وترتيب المستندات بشكل رسمي.</p>
+    </div>
+
+    <div class="card">
+      <h3>تصميم أوراق العمل</h3>
+      <p>إعداد أوراق عمل وأنشطة تعليمية منظمة تساعد في الشرح والتطبيق.</p>
+    </div>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="section-title">
+    <h2>طريقة طلب الخدمة</h2>
+    <p>خطوات بسيطة وسريعة للتواصل وبدء العمل.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>1 - إرسال المطلوب</h3>
+      <p>أرسل تفاصيل الخدمة أو صورة الواجب أو الملف عبر الواتساب.</p>
+    </div>
+
+    <div class="card">
+      <h3>2 - مراجعة التفاصيل</h3>
+      <p>نراجع المطلوب ونوضح لك طريقة التنفيذ والوقت المناسب.</p>
+    </div>
+
+    <div class="card">
+      <h3>3 - تنفيذ الخدمة</h3>
+      <p>يتم تجهيز الشرح أو التقرير أو العرض حسب المطلوب وبشكل منظم.</p>
+    </div>
+
+    <div class="card">
+      <h3>4 - التسليم والمتابعة</h3>
+      <p>يتم التسليم بصيغة مناسبة مثل Word أو PDF أو PowerPoint مع إمكانية التعديل.</p>
+    </div>
+  </div>
+</section>
+
+<section id="order">
+  <div class="section-title">
+    <h2>اطلب الخدمة الآن</h2>
+    <p>عبئ البيانات وسيتم تحويلك مباشرة إلى الواتساب.</p>
+  </div>
+
+  <form>
+    <label>الاسم</label>
+    <input type="text" id="name" placeholder="اكتب اسمك">
+
+    <label>نوع العميل</label>
+    <select id="clientType">
+      <option>طالب</option>
+      <option>مدرس / معلم</option>
+    </select>
+
+    <label>نوع الخدمة</label>
+    <select id="service">
+      <option>شرح مادة محاسبية</option>
+      <option>حل واجبات تخصص المحاسبة</option>
+      <option>تلخيص محاضرات</option>
+      <option>تقرير جامعي</option>
+      <option>عرض تقديمي</option>
+      <option>تقرير إنجاز للمدرسين</option>
+      <option>تقرير أداء وظيفي</option>
+      <option>عرض تقديمي تفاعلي</option>
+      <option>كتابة اختبار</option>
+      <option>خدمة أخرى</option>
+    </select>
+
+    <label>تفاصيل الطلب</label>
+    <textarea id="details" rows="5" placeholder="اكتب تفاصيل المطلوب هنا"></textarea>
+
+    <button type="button" class="btn" onclick="sendWhatsApp()">إرسال الطلب عبر واتساب</button>
+  </form>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>معلومات التواصل</h2>
+    <p>للطلبات والاستفسارات يمكنكم التواصل مباشرة عبر الرقم التالي:</p>
+    <h3 style="color:#142623;font-size:26px;">+967 773 957 911</h3>
+    <a class="btn" href="https://wa.me/967773957911" target="_blank">تواصل الآن</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 أكاديمية حلول للخدمات التعليمية - جميع الحقوق محفوظة</p>
+  <p>خدمات تعليمية للشرح، حل الواجبات، إعداد التقارير، وتصميم العروض.</p>
+</footer>
+
+<a class="whatsapp-fixed" href="https://wa.me/967773957911" target="_blank">واتساب</a>
+
+<script>
+function sendWhatsApp(){
+  let name=document.getElementById("name").value;
+  let clientType=document.getElementById("clientType").value;
+  let service=document.getElementById("service").value;
+  let details=document.getElementById("details").value;
+  let phone="967773957911";
+
+  let message=
+  "مرحباً، أريد طلب خدمة من أكاديمية حلول للخدمات التعليمية"+
+  "%0A--------------------"+
+  "%0Aالاسم: "+name+
+  "%0Aنوع العميل: "+clientType+
+  "%0Aنوع الخدمة: "+service+
+  "%0Aتفاصيل الطلب: "+details;
+
+  window.open("https://wa.me/"+phone+"?text="+message,"_blank");
+}
+</script>
+
+</body>
+</html>
